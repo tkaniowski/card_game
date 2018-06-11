@@ -1,9 +1,6 @@
 <?php
 
-use Cardgame\Repositories\CardRepository as CardRepository;
-use Cardgame\Repositories\DeckRepository as DeckRepository;
-use Cardgame\Repositories\PlayerRepository as PlayerRepository;
-use Cardgame\Repositories\GameRepository as GameRepository;
+use Cardgame\Repositories\{CardRepository, DeckRepository, PlayerRepository, GameRepository};
 use Cardgame\config\config as config;
 
 require_once('app/start.php');
